@@ -61,3 +61,22 @@ let arrays = [1, 2, 3, 4, 5];
 
 let [element1, element2] = arrays;
 // console.log(element1, element2);
+
+
+// 6.Access the city property of a nested object using both dot notation and optional chaining.
+
+let addressInfo = {
+
+    street: 10,
+
+    city: {
+        cityMain: "Dhaka metropolitan"
+
+    }
+
+}
+
+// console.log(addressInfo.city.cityMain);
+
+// console.log(addressInfo?.city);
+// console.log(addressInfo["city"]["cityMain"]);
