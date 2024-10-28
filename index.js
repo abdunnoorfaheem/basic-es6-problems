@@ -18,9 +18,16 @@ output(10, 20);
 
 let address = (name, city) => {
 
-    let addressCity = `He live in ${name} ${city} at the age of 15   `;
+        let addressCity = `He live in ${name} ${city} at the age of 15   `;
 
-    return addressCity;
+        return addressCity;
 
-}
-console.log(address("Bangladesh", "Dhaka"));
+    }
+    // console.log(address("Bangladesh", "Dhaka"));
+
+
+//3. Refactor a given function that multiplies two numbers into an arrow function, reducing its body to the minimum.
+
+
+let multiple = (a, b) => { return a * b; }
+console.log(multiple(10, 20));
