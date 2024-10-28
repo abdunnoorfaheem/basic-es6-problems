@@ -37,4 +37,27 @@ let multiple = (a, b) => { return a * b; }
 let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
 let merge = [...arr1, ...arr2];
-console.log(Math.max(...merge));
+// console.log(Math.max(...merge));
+
+
+//5.Create an object with properties name, age, and country, and use destructuring to extract them into variables. Also, destructure an array of five numbers to get the first two elements.
+
+let obj = {
+    names: "Noor",
+    age: 22,
+    country: "Bangladesh"
+}
+
+let {
+    names,
+    age,
+    country
+} = obj
+// console.log(names);
+
+
+let arrays = [1, 2, 3, 4, 5];
+
+
+let [element1, element2] = arrays;
+// console.log(element1, element2);
