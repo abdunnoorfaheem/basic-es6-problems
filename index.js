@@ -80,3 +80,45 @@ let addressInfo = {
 
 // console.log(addressInfo?.city);
 // console.log(addressInfo["city"]["cityMain"]);
+
+
+//7.Given an array of student objects with properties name and marks, use: map() to extract the names.  filter() to return students with marks above 80.find() to get the first student with marks over 90.
+
+
+let studentInfo = [
+
+    { names: "Noor", marks: 50 },
+    { names: "Fahim", marks: 60 },
+    { names: "Hasan", marks: 95 },
+    { names: "Rakib", marks: 90 },
+    { names: "Riyad", marks: 82 },
+    { names: "Musfiq", marks: 87 },
+];
+
+let studentsName = studentInfo.map((item) => {
+
+    return item["names"];
+
+
+});
+// console.log(studentsName);
+
+
+let studentMarks = studentInfo.filter((item) => {
+
+
+    return item.marks > 80;
+
+});
+
+// console.log(studentMarks);
+
+let studentMarksOver = studentInfo.find((item) => {
+
+    return item.marks > 90;
+
+
+
+});
+
+// console.log(studentMarksOver);
