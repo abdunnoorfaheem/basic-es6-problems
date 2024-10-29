@@ -122,3 +122,21 @@ let studentMarksOver = studentInfo.find((item) => {
 });
 
 // console.log(studentMarksOver);
+
+
+//8.Use forEach() on an array of objects (e.g., products with name and price) to log a message with each product's details.
+
+let products = [
+
+    { names: "Samsung", price: 15000 },
+    { names: "Realme", price: 35000 },
+    { names: "Redmi", price: 25000 },
+    { names: "Iphone", price: 115000 },
+    { names: "Motorola", price: 35600 }
+];
+let listProduct = products.forEach((item) => {
+
+    console.log(`Product name ${item.names} and price is ${item.price}`);
+
+
+});
