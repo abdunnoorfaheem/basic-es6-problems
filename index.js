@@ -136,7 +136,25 @@ let products = [
 ];
 let listProduct = products.forEach((item) => {
 
-    console.log(`Product name ${item.names} and price is ${item.price}`);
+    // console.log(`Product name ${item.names} and price is ${item.price}`);
 
 
 });
+
+//9.Use map() on a string array to create a new array where each string is prefixed with "Hello, ".
+
+let person = [
+
+    { names: "Noor", age: 26 },
+    { names: "Rakib", age: 22 },
+    { names: "Sakib", age: 28 },
+    { names: "Riyad", age: 26 },
+    { names: "Musfiq", age: 29 },
+];
+
+let info = person.map((item) => {
+
+    return `Hello My name is ${item.names} and i'm ${item.age} years old`;
+
+});
+// console.log(info);
