@@ -158,3 +158,22 @@ let info = person.map((item) => {
 
 });
 // console.log(info);
+
+//10.Given an array of objects, use filter() to return all objects where a specific condition is met (e.g., products priced above a certain amount).
+
+let product = [
+    { names: "Tea", price: 200 },
+    { names: "Milk", price: 420 },
+    { names: "Coffee", price: 250 },
+    { names: "Soap", price: 100 },
+    { names: "Egg", price: 150 },
+    { names: "Sugar", price: 160 },
+    { names: "Oil", price: 800 }
+];
+
+let findProduct = product.filter((item) => {
+
+    return item.price > 250;
+
+});
+// console.log(findProduct);
